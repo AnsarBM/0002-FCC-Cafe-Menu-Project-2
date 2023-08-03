@@ -1,0 +1,99 @@
+body {
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg); /*This is how you set background image of the whole webpage*/
+    font-family: sans-serif;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;  /*Set margin-left and margin-right to auto to center the menu*/
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;  /*Limit the size of the screen to avoid the item and the price to be far away from each other on big screens*/
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:-25px;   /*Remove the space between the image and the heading above it*/
+  }
+  
+  hr {
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  h1, h2 {
+    font-family: Impact, serif; /*If a browser does not have Impact font, then use serif font*/
+  }
+  
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .flavor, .dessert {
+    text-align: left;
+    width: 75%;  /* The flavor occupies 75% of the page width*/
+  }
+  
+  .price {
+    text-align: right;
+    width: 25%; /*The price occupies 25% of the page width*/
+  }
+  
+  /* FOOTER */
+  
+  footer {
+    font-size: 14px;
+  }
+  
+  .address {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: black;   /*Set the color of the link to black*/
+  }
+  
+
+ /*Below are called pseudoselectors*/
+
+  a:visited {
+    color: black;   /*Once the page is visited the link will be black. */
+  }
+  
+  a:hover {
+    color: brown;  /*Once the cursor is on the link turn the link to brown*/
+  }
+  
+  a:active {
+    color: brown;  /*Set the color of the link to brown after it is clicked*/
+  }
